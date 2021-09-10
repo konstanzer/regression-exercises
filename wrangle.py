@@ -83,7 +83,9 @@ def z_score_method(df, cols):
     return df
     
     
-def split_data(X, y, test_size=.15):
+def split_data(X, target, test_size=.15):
+    y = X.pop(target)
+    
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=36)
     test_size2 = test_size/(1-test_size)
     X_train, X_val, y_train, y_val = train_test_split(X_train, y_train, test_size=test_size2, random_state=36)
