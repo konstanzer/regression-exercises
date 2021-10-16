@@ -1,0 +1,3 @@
+**Linear regression** is a supervised learning technique used to model the relationship of one or more features or independent variables to one or more target/dependent variables. Unlike in classfication, the target variable is represented by **continuous data.**
+
+A regression algorithm finds the function that best fits the relationship between independent feature and the target variable. In other words, the algorithm finds the line or multi-dimensional plane that minimizes the errors in predictions. The best-fit function can then make predictions on new observations. The “best” choices of values for the parameters are the **coefficients**.
